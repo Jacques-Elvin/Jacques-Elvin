@@ -3,7 +3,7 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `I am a passionate Web developer with a knack for crafting robust and scalable web applications. With 4 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a passionate Web Developer with 4 years of hands-on experience in building and maintaining robust, scalable web applications. I specialize in using modern web technologies like HTML, CSS, JavaScript, and popular frameworks to deliver high-performing solutions tailored to both client and end-user needs. My expertise extends across UI/UX development, product landing pages, and custom interface implementations. I’ve collaborated closely with UI/UX designers, digital marketing teams, and business analysts to ensure development aligns with project goals, user expectations, and strict deadlines—consistently delivering clean, maintainable, and user-centric web solutions.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -32,7 +32,7 @@ Worked in close collaboration with the UI/UX Director to plan design strategies,
   },
   {
     year: "2021 - Present",
-    role: "Frontend Developer",
+    role: "Web Programmer",
     company: "Codeglo",
     description: `Led diverse web development projects with a strong focus on WordPress and Shopify customization, delivering optimized websites for improved user engagement and performance.
 Developed dynamic, real-time applications using modern technologies like Next.js, React, and Firebase, ensuring high responsiveness and scalability.
