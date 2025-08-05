@@ -37,7 +37,7 @@ const Experience = () => {
                 </span>
               </h3>
               <p className="mb-4 text-stone-400">{experience.description}</p>
-              <div className="flex flex-wrap gap-3">
+              {/* <div className="flex flex-wrap gap-3">
                 {experience.technologies.map((tech, index) => (
                   <span
                     className="rounded bg-stone-900 px-2 text-sm font-medium text-stone-300"
@@ -46,7 +46,7 @@ const Experience = () => {
                     {tech}
                   </span>
                 ))}
-              </div>
+              </div> */}
             </motion.div>
           </div>
         ))}

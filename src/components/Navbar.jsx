@@ -30,24 +30,6 @@ const Navbar = () => {
         >
           <FaGithub />
         </a>
-
-        <a
-          href="https://www.instagram.com/_jack_ques_/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Instagram"
-        >
-          <FaInstagram />
-        </a>
-
-        <a
-          href="https://x.com/jacques_elvin_"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="X"
-        >
-          <FaXTwitter />
-        </a>
       </div>
     </nav>
   );

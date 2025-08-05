@@ -1,9 +1,10 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import Technologies from "./components/Technologies";
+import TechnicalSkills from "./components/TechnicalSkills";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
+import ProfessionalProjects from "./components/ProfessionalProjects";
 import Contact from "./components/Contact";
 
 function App() {
@@ -19,9 +20,10 @@ function App() {
       <div className="container mx-auto px-8">
         <Navbar />
         <Hero />
-        <Technologies />
+        <TechnicalSkills />
         <Projects />
         <Experience />
+        <ProfessionalProjects />
         <Contact />
       </div>
     </div>

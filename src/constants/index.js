@@ -1,9 +1,14 @@
-import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import project1 from "../assets/projects/project-1.png";
+// import project2 from "../assets/projects/project-2.webp";
+import project3 from "../assets/projects/project-3.png";
+// import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `I am a passionate Web Developer with 4 years of hands-on experience in building and maintaining robust, scalable web applications. I specialize in using modern web technologies like HTML, CSS, JavaScript, and popular frameworks to deliver high-performing solutions tailored to both client and end-user needs. My expertise extends across UI/UX development, product landing pages, and custom interface implementations. I’ve collaborated closely with UI/UX designers, digital marketing teams, and business analysts to ensure development aligns with project goals, user expectations, and strict deadlines—consistently delivering clean, maintainable, and user-centric web solutions.`;
+export const HERO_CONTENT = ` Experienced Front-end Developer with a strong foundation in building high-quality, user-centric web
+ applications using React and Next.js. Proven track record of delivering performant and scalable
+ solutions, with a focus on clean UI/UX design and responsive interfaces. Skilled in translating
+ complex business requirements into elegant front-end architectures, collaborating effectively with
+ cross-functional teams, and consistently meeting project goals. Passionate about optimizing user
+ experience, adopting modern development practices, and contributing to innovative product growth.`;
 
 export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
 
@@ -31,8 +36,8 @@ Worked in close collaboration with the UI/UX Director to plan design strategies,
     ],
   },
   {
-    year: "2021 - Present",
-    role: "Web Programmer",
+    year: "2021 - 2022",
+    role: "Frontend Developer",
     company: "Codeglo",
     description: `Led diverse web development projects with a strong focus on WordPress and Shopify customization, delivering optimized websites for improved user engagement and performance.
 Developed dynamic, real-time applications using modern technologies like Next.js, React, and Firebase, ensuring high responsiveness and scalability.
@@ -59,29 +64,35 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: [
+      "HTML",
+      "CSS",
+      "React",
+      "Tailwind CSS",
+      // , "Node.js", "MongoDB"
+    ],
   },
-  {
-    title: "Task Management App",
-    image: project2,
-    description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
-  },
+  // {
+  //   title: "Task Management App",
+  //   image: project2,
+  //   description:
+  //     "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+  //   technologies: ["HTML", "CSS", "Angular", "Firebase"],
+  // },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "React", "Tailwind CSS"],
   },
-  {
-    title: "Blogging Platform",
-    image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
-  },
+  // {
+  //   title: "Blogging Platform",
+  //   image: project4,
+  //   description:
+  //     "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+  //   technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+  // },
 ];
 
 export const CONTACT = {
