@@ -11,6 +11,7 @@ const TechnicalSkills = () => {
         "JavaScript",
         "TypeScript",
         "React Native",
+        "Ionic Framework",
       ],
     },
     {

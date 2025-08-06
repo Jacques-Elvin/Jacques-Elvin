@@ -122,12 +122,15 @@ const ProfessionalProjects = () => {
       </motion.h2>
       <div>
         {projects.map((project, index) => (
-          <div key={index} className="mb-8 flex flex-wrap lg:justify-center">
+          <div
+            key={index}
+            className="mb-8 flex flex-wrap lg:justify-center gap-8"
+          >
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: -100 }}
               transition={{ duration: 1 }}
-              className="w-full lg:w-1/4 flex justify-center lg:justify-start"
+              className="w-full lg:w-1/4 flex lg:justify-center lg:justify-start"
             >
               <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center border border-stone-700">
                 <img
